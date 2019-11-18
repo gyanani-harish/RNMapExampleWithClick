@@ -12,8 +12,10 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.4",
+    "react-native-android-location-enabler": "^1.2.0",
     "react-native-maps": "0.26.1",
-    "realm": "^3.4.2"
+    "realm": "^3.4.2",
+    "render-if": "^0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

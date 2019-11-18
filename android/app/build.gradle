@@ -184,8 +184,8 @@ dependencies {
        exclude group: 'com.google.android.gms', module: 'play-services-base'
        exclude group: 'com.google.android.gms', module: 'play-services-maps'
    }
-   implementation 'com.google.android.gms:play-services-base:10.0.1'
-   implementation 'com.google.android.gms:play-services-maps:10.0.1'
+   implementation 'com.google.android.gms:play-services-base:+'
+   implementation 'com.google.android.gms:play-services-maps:+'
    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
 
     implementation fileTree(dir: "libs", include: ["*.jar"])
